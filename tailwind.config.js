@@ -5,11 +5,11 @@ module.exports = {
 		container: {
 			center: true,
 		},
-		colors: {
-			darkGray: 'hsl(0, 0%, 55%)',
-			veryDarkGray: 'hsl(0, 0%, 41%)',
-		},
 		extend: {
+			colors: {
+				darkGray: 'hsl(0, 0%, 55%)',
+				veryDarkGray: 'hsl(0, 0%, 41%)',
+			},
 			fontFamily: {
 				Alata: ['Alata', 'sans-serif'],
 				JosefinSans: ['JosefinSans', 'sans-serif'],
