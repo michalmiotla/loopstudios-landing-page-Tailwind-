@@ -16,9 +16,10 @@
 <body class="font-Alata text-[15px] bg-black">
 
     <div class="wrapper relative w-full mx-auto  xl:max-w-[1440px] overflow-hidden bg-white">
-        <nav class="absolute w-full z-20">
-            <div class="flex justify-between relative mt-12 px-6 z-10">
-                <img class="w-[150px]" src="./loopstudios-landing-page-main/images/logo.svg" alt="">
+        <nav
+            class="absolute w-full z-20 md:flex md:justify-between md:items-center md:h-[170px] md:px-12 lg:px-24 xl:px-36">
+            <div class="flex justify-between relative mt-12 px-6 z-10 md:mt-0 ">
+                <img class="w-[150px] lg:h-fit lg:w-fit" src="./loopstudios-landing-page-main/images/logo.svg" alt="">
                 <button class="burger-btn md:hidden"><img class="burger-img-open"
                         src="./loopstudios-landing-page-main/images/icon-hamburger.svg" alt="">
                     <img class="burger-img-close hidden" src="./loopstudios-landing-page-main/images/icon-close.svg"
@@ -41,27 +42,56 @@
                         href="#">Support</a>
                 </div>
             </div>
+            <div class="desktop-nav hidden md:block top-0 text-white duration-500">
+                <div
+                    class="relative flex top-1/2 translate-y-[-50%] px-6 gap-8 font-JosefinSans font-bold uppercase tracking-widest md:translate-y-0 md:gap-7 md:tracking-[0.09em] md:normal-case md:text-sm">
+                    <a class="relative block w-fit before:content-[''] before:absolute before:block before:-bottom-2 before:left-1/2 before:w-[25px] before:h-[2px] before:translate-x-[-50%] before:scale-0 before:bg-white before:duration-200 before:hover:scale-100"
+                        href="#">About</a>
+                    <a class="relative block w-fit before:content-[''] before:absolute before:block before:-bottom-2 before:left-1/2 before:w-[25px] before:h-[2px] before:translate-x-[-50%] before:scale-0 before:bg-white before:duration-200 before:hover:scale-100"
+                        href="#">Careers</a>
+                    <a class="relative block w-fit before:content-[''] before:absolute before:block before:-bottom-2 before:left-1/2 before:w-[25px] before:h-[2px] before:translate-x-[-50%] before:scale-0 before:bg-white before:duration-200 before:hover:scale-100"
+                        href="#">Events</a>
+                    <a class="relative block w-fit before:content-[''] before:absolute before:block before:-bottom-2 before:left-1/2 before:w-[25px] before:h-[2px] before:translate-x-[-50%] before:scale-0 before:bg-white before:duration-200 before:hover:scale-100"
+                        href="#">Products</a>
+                    <a class="relative block w-fit before:content-[''] before:absolute before:block before:-bottom-2 before:left-1/2 before:w-[25px] before:h-[2px] before:translate-x-[-50%] before:scale-0 before:bg-white before:duration-200 before:hover:scale-100"
+                        href="#">Support</a>
+                </div>
+            </div>
         </nav>
 
         <div class="relative w-full font-JosefinSans">
-            <img class="relative w-full max-h-screen object-cover top-0 mx-auto z-10"
+            <img class="relative w-full max-h-screen object-cover top-0 mx-auto z-10 md:hidden"
                 src="./loopstudios-landing-page-main/images/mobile/image-hero.jpg" alt="">
+            <img class="hidden md:block min-h-[650px] object-cover"
+                src="./loopstudios-landing-page-main/images/desktop/image-hero.jpg" alt="">
+            <div class="hidden md:block absolute w-full h-full top-0 bg-black opacity-40">
+            </div>
             <div
-                class="absolute w-[88%] h-[200px] top-1/2 left-1/2 -translate-y-[50%] -translate-x-[50%] border-2 border-white z-10">
-                <h1 class="p-7 text-4xl uppercase tracking-wider leading-9 text-white">Immersive
+                class="absolute w-[88%] h-[200px] top-1/2 left-1/2 -translate-y-[50%] -translate-x-[50%] border-2 border-white z-10 min-[400px]:text-center md:text-left md:w-[650px] md:h-[280px] md:top-[56%] lg:left-0 lg:translate-x-0 lg:ml-[7.5rem] xl:ml-[10.5rem]">
+                <h1
+                    class="p-7 text-4xl uppercase tracking-wider leading-9 text-white min-[400px]:text-[40px] min-[400px]:leading-none sm:text-[52px] md:p-10  md:tracking-wide  md:text-[70px]">
+                    Immersive
                     experiences
                     that
                     deliver</h1>
             </div>
         </div>
 
-        <main class="w-[90%] mx-auto">
-            <div class="relative mt-24">
-                <img src="./loopstudios-landing-page-main/images/mobile/image-interactive.jpg" alt="">
-                <div class="relative text-center">
-                    <h2 class="text-3xl uppercase mt-6 py-4 font-JosefinSans font-light">The leader in interactive VR
+        <main class="w-[90%] mx-auto md:w-[77%]">
+            <div class="relative mt-24 md:mt-40">
+                <img class="mx-auto md:hidden" src="./loopstudios-landing-page-main/images/mobile/image-interactive.jpg"
+                    alt="">
+                <img class="hidden md:block mx-auto lg:ml-0"
+                    src="./loopstudios-landing-page-main/images/desktop/image-interactive.jpg" alt="">
+                <div
+                    class="relative text-center lg:absolute lg:w-[545px] lg:h-[250px] lg:top-[250px] lg:right-0 lg:pl-6 lg:text-left lg:bg-white xl:h-[320px] xl:top-[180px] xl:pt-14 xl:pl-24">
+                    <h2
+                        class="text-3xl uppercase mt-6 py-4 font-JosefinSans font-light lg:mt-4 lg:py-5 md:text-[48px] md:leading-none xl:mt-6">
+                        The leader in
+                        interactive VR
                     </h2>
-                    <p class="px-8 leading-[1.65rem] text-darkGray">Founded in 2011, Loopstudios has been producing
+                    <p class="px-8 leading-[1.65rem] text-darkGray lg:px-0">Founded in 2011, Loopstudios has been
+                        producing
                         world-class
                         virtual
                         reality
@@ -78,7 +108,7 @@
                         class="hidden relative w-[45%] mx-auto mt-12 px-6 py-2 border-2 border-black uppercase tracking-[0.25em] duration-300 hover:bg-black hover:text-white md:block">See
                         all</button>
                 </div>
-                <div class="relative flex flex-col mt-3 gap-5 font-JosefinSans uppercase">
+                <div class="relative flex flex-col items-center mt-3 gap-5 font-JosefinSans uppercase">
                     <div class="relative">
                         <img src="./loopstudios-landing-page-main/images/mobile/image-deep-earth.jpg" alt="">
                         <h3 class="absolute top-[15%] text-white p-6 w-1/2 text-2xl z-10 font-light">Deep earth</h3>
