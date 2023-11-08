@@ -18,7 +18,7 @@
     <div class="wrapper relative w-full mx-auto  xl:max-w-[1440px] overflow-hidden bg-white">
         <nav
             class="absolute w-full z-20 md:flex md:justify-between md:items-center md:h-[170px] md:px-12 lg:px-24 xl:px-36">
-            <div class="flex justify-between relative mt-12 px-6 z-10 md:mt-0 ">
+            <div class="relative flex justify-between mt-12 px-6 z-10 md:mt-0">
                 <img class="w-[150px] lg:h-fit lg:w-fit" src="./loopstudios-landing-page-main/images/logo.svg" alt="">
                 <button class="burger-btn md:hidden"><img class="burger-img-open"
                         src="./loopstudios-landing-page-main/images/icon-hamburger.svg" alt="">
@@ -60,11 +60,11 @@
         </nav>
 
         <div class="relative w-full font-JosefinSans">
-            <img class="relative w-full max-h-screen object-cover top-0 mx-auto z-10 md:hidden"
+            <img class="relative w-full top-0 mx-auto max-h-screen object-cover z-10 md:hidden"
                 src="./loopstudios-landing-page-main/images/mobile/image-hero.jpg" alt="">
             <img class="hidden md:block min-h-[650px] object-cover"
                 src="./loopstudios-landing-page-main/images/desktop/image-hero.jpg" alt="">
-            <div class="hidden md:block absolute w-full h-full top-0 bg-black opacity-40">
+            <div class="absolute hidden md:block w-full h-full top-0 bg-black opacity-40">
             </div>
             <div
                 class="absolute w-[88%] h-[200px] top-1/2 left-1/2 -translate-y-[50%] -translate-x-[50%] border-2 border-white z-10 min-[400px]:text-center md:text-left md:w-[650px] md:h-[280px] md:top-[56%] lg:left-0 lg:translate-x-0 lg:ml-[7.5rem] xl:ml-[10.5rem]">
@@ -86,7 +86,7 @@
                 <div
                     class="relative text-center lg:absolute lg:w-[545px] lg:h-[250px] lg:top-[250px] lg:right-0 lg:pl-6 lg:text-left lg:bg-white xl:h-[320px] xl:top-[180px] xl:pt-14 xl:pl-24">
                     <h2
-                        class="text-3xl uppercase mt-6 py-4 font-JosefinSans font-light lg:mt-4 lg:py-5 md:text-[48px] md:leading-none xl:mt-6">
+                        class="mt-6 py-4 text-3xl uppercase font-JosefinSans font-light md:leading-none md:text-[48px] lg:mt-4 lg:py-5 xl:mt-6">
                         The leader in
                         interactive VR
                     </h2>
@@ -253,7 +253,7 @@
             </div>
         </main>
 
-        <footer class="mt-8 p-12 bg-black text-white md:flex md:justify-between lg:px-[165px] md:mt-24">
+        <footer class="mt-8 p-12 bg-black text-white md:flex md:justify-between md:mt-24 lg:px-[165px]">
             <div class="md:flex md:flex-col md:justify-between">
                 <img class=" w-1/2 mx-auto pb-2 md:w-[150px] md:mx-0"
                     src="./loopstudios-landing-page-main/images/logo.svg" alt="">
@@ -282,7 +282,7 @@
                         src="./loopstudios-landing-page-main/images/icon-instagram.svg" alt="">
                 </div>
 
-                <p class="block text-center text-darkGray mt-6">© 2021 Loopstudios. All rights reserved.</p>
+                <p class="block mt-6 text-center text-darkGray">© 2021 Loopstudios. All rights reserved.</p>
             </div>
 
 
@@ -290,8 +290,9 @@
     </div>
 
     <div class="attribution text-white text-center md:hidden">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Michał Miotła</a>.
+        Challenge by <a class="text-purple-500" href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank">Frontend Mentor</a>.
+        Coded by <a class="text-purple-500" href="https://github.com/michalmiotla" target="_blank">Michał Miotła</a>.
     </div>
 
     <script src="./script.js"></script>
